@@ -1,6 +1,9 @@
-# DiveLog Converter 1.1.1
+# DiveLog Converter 1.2.0
 
-Opravená verze s obnovenou uvítací obrazovkou a přirozeným tokem od fotografie ke kontrole.
+Funkční PWA pro lokální OCR fotografií ručně psaného logbooku, kontrolu vytěžených údajů a export CSV.
 
-## Důležité
-Automatické rozpoznání rukopisu vyžaduje zabezpečené připojení externí OCR služby přes backend/serverless funkci. GitHub Pages samotný nesmí obsahovat tajný API klíč. Aplikace proto při nepřipojeném OCR nabídne ruční zadání nebo testovací ponor.
+## OCR
+OCR běží v prohlížeči pomocí Tesseract.js 6 s jazyky ces a eng. Při prvním použití je nutný internet pro načtení knihovny a jazykových dat. PDF se vykreslí pomocí PDF.js; verze 1.2.0 zpracuje první stránku PDF.
+
+## Nasazení
+Nahrajte všechny soubory do kořene GitHub repozitáře a aktivujte GitHub Pages z větve main, / (root).
