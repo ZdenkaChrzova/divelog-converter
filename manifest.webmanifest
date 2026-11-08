@@ -1,0 +1,1 @@
+{"name":"DiveLog Converter","short_name":"DiveConverter","description":"Převod papírového potápěčského deníku do CSV","start_url":"./","display":"standalone","background_color":"#eef6fb","theme_color":"#0869bf","icons":[{"src":"icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]}
