@@ -1,8 +1,6 @@
-# DiveLog Converter 1.1.0
-Nahrajte obsah této složky do kořene GitHub repozitáře a v Settings > Pages nastavte větev main a / (root).
+# DiveLog Converter 1.1.1
 
-## Změny
-- informace o verzi
-- automatické „Co je nového“ po aktualizaci
-- sjednocená pole data a času
-- teploty mapované jako vzduch / voda
+Opravená verze s obnovenou uvítací obrazovkou a přirozeným tokem od fotografie ke kontrole.
+
+## Důležité
+Automatické rozpoznání rukopisu vyžaduje zabezpečené připojení externí OCR služby přes backend/serverless funkci. GitHub Pages samotný nesmí obsahovat tajný API klíč. Aplikace proto při nepřipojeném OCR nabídne ruční zadání nebo testovací ponor.
