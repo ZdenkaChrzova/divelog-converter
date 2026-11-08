@@ -1,5 +1,3 @@
-# DiveLog Converter 1.2.2
+# DiveLog Converter 1.2.3
 
-Tato verze opravuje načítání starých souborů z cache. Obsahuje funkční lokální OCR Tesseract.js, podporu první stránky PDF a opravené tlačítko Rozpoznat údaje.
-
-Po nahrání všech souborů na GitHub Pages musí být v záhlaví zobrazena verze 1.2.2.
+Opravena chyba JavaScriptu při spuštění, která blokovala tlačítko Rozpoznat údaje a okno Co je nového. Verze obsahuje lokální OCR Tesseract.js a podporu první stránky PDF.
