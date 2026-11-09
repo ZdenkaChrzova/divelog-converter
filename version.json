@@ -1,1 +1,34 @@
-{"version":"1.3.0","date":"2026-11-08","title":"Cílené OCR šablony logbooku","changes":["Stránka se rozděluje na samostatné výřezy polí.","Číslo ponoru, datum, hloubka, délka, teploty a časy se čtou odděleně.","Lokalita a buddy se čtou bez grafu ponoru a razítka.","Číselná pole používají omezené znaky a vlastní čištění výsledků."],"history":[{"version":"1.3.0","date":"2026-11-08","changes":["Přidáno cílené OCR šablony Leštinka."]},{"version":"1.2.3","date":"2026-11-08","changes":["Opravena chyba spuštění aplikace."]}]}
+{
+  "version": "1.4.0",
+  "date": "2026-11-09",
+  "title": "Návrat k OCR celé stránky",
+  "changes": [
+    "Odstraněno OCR pomocí pevných šablon polí.",
+    "Obnoveno OCR celé stránky pomocí Tesseract.js.",
+    "Rozpoznaný text se ukládá celý do poznámky ponoru.",
+    "Zjednodušena OCR logika pro různé typy logbooků."
+  ],
+  "history": [
+    {
+      "version": "1.4.0",
+      "date": "2026-11-09",
+      "changes": [
+        "Návrat k OCR celé stránky."
+      ]
+    },
+    {
+      "version": "1.3.0",
+      "date": "2026-11-08",
+      "changes": [
+        "Přidáno cílené OCR šablony Leštinka."
+      ]
+    },
+    {
+      "version": "1.2.3",
+      "date": "2026-11-08",
+      "changes": [
+        "Opravena chyba spuštění aplikace."
+      ]
+    }
+  ]
+}

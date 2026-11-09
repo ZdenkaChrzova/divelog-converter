@@ -1,3 +1,5 @@
-# DiveLog Converter 1.3.0
+# DiveLog Converter 1.4.0
 
-Cílené OCR předtištěné šablony logbooku. Aplikace čte samostatné výřezy pro číslo ponoru, datum, hloubku, délku, lokalitu, teploty, časy a buddyho. Výsledky je nutné před exportem zkontrolovat.
+Návrat k OCR celé stránky. Aplikace využívá Tesseract.js pro rozpoznání celé fotografie nebo PDF stránky potápěčského deníku a automaticky se pokouší identifikovat základní údaje ponoru. Kompletní rozpoznaný text se ukládá do poznámky ponoru pro snadnou kontrolu a případné ruční doplnění údajů.
+
+Před exportem do Diving LogBooku je vždy doporučeno všechny hodnoty zkontrolovat podle originálního záznamu.
