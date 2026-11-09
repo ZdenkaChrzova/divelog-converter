@@ -1,26 +1,19 @@
 {
-  "version": "1.4.1",
+  "version": "1.4.0",
   "date": "2026-11-09",
-  "title": "Sjednocení názvů a verzování PWA",
+  "title": "Návrat k OCR celé stránky",
   "changes": [
-    "Sjednocen hlavní skript na název app.js.",
-    "Aktualizováno verzování souborů a cache na 1.4.1.",
-    "Opraven nadpis obrazovky Rozpoznávání údajů.",
-    "Sjednocena registrace service workeru a offline soubory."
+    "Odstraněno OCR pomocí pevných šablon polí.",
+    "Obnoveno OCR celé stránky pomocí Tesseract.js.",
+    "Rozpoznaný text se ukládá celý do poznámky ponoru.",
+    "Zjednodušena OCR logika pro různé typy logbooků."
   ],
   "history": [
-    {
-      "version": "1.4.1",
-      "date": "2026-11-09",
-      "changes": [
-        "Sjednocení názvů souborů, verzování PWA a oprava nadpisu."
-      ]
-    },
     {
       "version": "1.4.0",
       "date": "2026-11-09",
       "changes": [
-        "Předchozí rozpracovaná verze OCR."
+        "Návrat k OCR celé stránky."
       ]
     },
     {

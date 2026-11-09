@@ -1,5 +1,5 @@
-## DiveLog Converter 1.4.1
+# DiveLog Converter 1.4.0
 
-Verze 1.4.1 sjednocuje název hlavního skriptu na `app.js`, aktualizuje odkazy a cache PWA na verzi 1.4.1, opravuje nadpis obrazovky rozpoznávání a sjednocuje registraci service workeru.
+Návrat k OCR celé stránky. Aplikace využívá Tesseract.js pro rozpoznání celé fotografie nebo PDF stránky potápěčského deníku a automaticky se pokouší identifikovat základní údaje ponoru. Kompletní rozpoznaný text se ukládá do poznámky ponoru pro snadnou kontrolu a případné ruční doplnění údajů.
 
-Aplikace používá Tesseract.js a cílené OCR oblastí formuláře. Rozpoznané hodnoty jsou návrhy a před exportem do Diving LogBooku je vždy potřeba údaje zkontrolovat podle originálního záznamu.
+Před exportem do Diving LogBooku je vždy doporučeno všechny hodnoty zkontrolovat podle originálního záznamu.
