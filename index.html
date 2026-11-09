@@ -3,9 +3,20 @@
 <section id="process" class="page"><p class="eyebrow">KROK 2</p><h2>Rozpoznávání údajů<h2>DiveLog Converter 1.4.0</h2>/h2><div class="processing card"><div class="spinner" id="spinner"></div><h3 id="processTitle">Připravuji nahrané stránky…</h3><p id="processInfo">Při prvním použití je potřeba internet pro načtení OCR knihovny a jazykových dat.</p><div class="progress"><span id="progressBar"></span></div><ul class="process-list"><li id="p1">Nahrání souborů</li><li id="p2">Rozpoznání textu a rukopisu</li><li id="p3">Přiřazení hodnot k polím</li><li id="p4">Příprava kontroly</li></ul><div class="ocr-result-box" id="ocrResultBox" hidden><h3>Rozpoznaný text</h3><textarea id="rawOcr" readonly></textarea><p class="ocr-hint">Rozpoznané hodnoty jsou návrhy. Před exportem je vždy zkontrolujte podle fotografie.</p></div><div id="ocrError" class="ocr-notice" hidden><strong>Rozpoznání se nepodařilo.</strong><p id="ocrErrorText"></p><button id="retryOcr" class="primary">Zkusit znovu</button><button id="manual" class="secondary">Zadat údaje ručně</button></div><button id="continueReview" class="primary" hidden>Zkontrolovat rozpoznané údaje →</button><button id="cancelOcr" class="danger" hidden>Zrušit rozpoznávání</button></div><button data-page="upload">← Zpět</button></section><section id="review" class="page"><h2>Kontrola ponorů</h2><div class="review"><aside><button id="add">+ Přidat</button><div id="list"></div></aside><div class="preview"><img id="img"><p id="noimg">Náhled zdrojové fotografie</p></div><form id="form"></form></div><button id="remove" class="danger">Smazat</button><button data-page="locations" class="primary">Správa lokalit</button></section>
 <section id="locations" class="page"><h2>Správa lokalit</h2><p>Stejné ID propojí ponory se stejnou lokalitou.</p><table><thead><tr><th>ID</th><th>Název</th><th>Země</th><th>Ponory</th><th></th></tr></thead><tbody id="locs"></tbody></table><button id="addloc">+ Lokalita</button><button data-page="export" class="primary">Export</button></section>
 <section id="export" class="page"><h2>Export CSV</h2><div id="stats"></div><button id="valid" class="primary">Stáhnout připravené CSV</button><button id="all">Stáhnout všechny</button><button id="loccsv">Stáhnout locations.csv</button><pre id="preview"></pre></section></main>
-<dialog id="changes"><button class="x">×</button><h2>DiveLog Converter 1.4.0</h2><h3>Co je nového</h3><<ul>
-<li>Odstraněno OCR pomocí pevných šablon polí.</li>
-<li>Obnoveno OCR celé stránky pomocí Tesseract.js.</li>
-<li>Rozpoznaný text se ukládá celý do poznámky ponoru.</li>
-<li>Zjednodušena OCR logika pro různé typy logbooků.</li>
-</ul>></dialog><script src="app.js?v=1.4.0"></script></body></html>
+<dialog id="changes">
+  <button class="x">×</button>
+  <h2>DiveLog Converter 1.4.0</h2>
+  <h3>Co je nového</h3>
+
+  <ul>
+    <li>Odstraněno OCR pomocí pevných šablon polí.</li>
+    <li>Obnoveno OCR celé stránky pomocí Tesseract.js.</li>
+    <li>Rozpoznaný text se ukládá celý do poznámky ponoru.</li>
+    <li>Zjednodušena OCR logika pro různé typy logbooků.</li>
+  </ul>
+
+</dialog>
+
+<script src="app.js?v=1.4.0"></script>
+</body>
+</html>
