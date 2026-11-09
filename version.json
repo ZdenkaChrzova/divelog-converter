@@ -1,14 +1,21 @@
 {
-  "version": "1.4.0",
+  "version": "1.4.3",
   "date": "2026-11-09",
-  "title": "Návrat k OCR celé stránky",
+  "title": "Nový název hlavního JavaScriptu",
   "changes": [
-    "Odstraněno OCR pomocí pevných šablon polí.",
-    "Obnoveno OCR celé stránky pomocí Tesseract.js.",
-    "Rozpoznaný text se ukládá celý do poznámky ponoru.",
-    "Zjednodušena OCR logika pro různé typy logbooků."
+    "Hlavní skript přejmenován na app-1.4.3.js.",
+    "Nový fyzický název obchází starou cache souboru app.js.",
+    "Na obrazovce rozpoznávání je viditelná značka OCR 1.4.3.",
+    "Zachováno víceprůchodové OCR a validace hodnot z verze 1.4.2."
   ],
   "history": [
+    {
+      "version": "1.4.3",
+      "date": "2026-11-09",
+      "changes": [
+        "Nový název JavaScriptu pro jednoznačné načtení aktuální OCR logiky."
+      ]
+    },
     {
       "version": "1.4.0",
       "date": "2026-11-09",
