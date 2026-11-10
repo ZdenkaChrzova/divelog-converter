@@ -1,40 +1,26 @@
 {
-  "version": "1.4.3",
-  "date": "2026-11-09",
-  "title": "Nový název hlavního JavaScriptu",
+  "version": "1.5.0",
+  "date": "2026-11-10",
+  "title": "Cloudové rozpoznávání ručně psaných logbooků",
   "changes": [
-    "Hlavní skript přejmenován na app-1.4.3.js.",
-    "Nový fyzický název obchází starou cache souboru app.js.",
-    "Na obrazovce rozpoznávání je viditelná značka OCR 1.4.3.",
-    "Zachováno víceprůchodové OCR a validace hodnot z verze 1.4.2."
+    "Nové rozpoznávání pomocí Google Gemini přes zabezpečený Cloudflare Worker.",
+    "API klíč není uložený ve frontendu ani v GitHubu.",
+    "Podpora JPG, PNG, WEBP a PDF do 10 MB.",
+    "Automatická kontrola délky ponoru podle časů."
   ],
   "history": [
+    {
+      "version": "1.5.0",
+      "date": "2026-11-10",
+      "changes": [
+        "Cloudové rozpoznávání Gemini přes Cloudflare Worker."
+      ]
+    },
     {
       "version": "1.4.3",
       "date": "2026-11-09",
       "changes": [
-        "Nový název JavaScriptu pro jednoznačné načtení aktuální OCR logiky."
-      ]
-    },
-    {
-      "version": "1.4.0",
-      "date": "2026-11-09",
-      "changes": [
-        "Návrat k OCR celé stránky."
-      ]
-    },
-    {
-      "version": "1.3.0",
-      "date": "2026-11-08",
-      "changes": [
-        "Přidáno cílené OCR šablony Leštinka."
-      ]
-    },
-    {
-      "version": "1.2.3",
-      "date": "2026-11-08",
-      "changes": [
-        "Opravena chyba spuštění aplikace."
+        "Experimentální lokální OCR pomocí Tesseract.js."
       ]
     }
   ]

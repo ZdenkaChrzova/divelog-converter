@@ -1,11 +1,11 @@
-const CACHE='divelog-converter-v1.4.3';
+const CACHE='divelog-converter-v1.5.0';
 
 const ASSETS=[
   './',
   './index.html',
-  './styles.css?v=1.4.3',
-  './app-1.4.3.js',
-  './manifest.webmanifest?v=1.4.3',
+  './styles.css?v=1.5.0',
+  './app-1.5.0.js',
+  './manifest.webmanifest?v=1.5.0',
   './icon.svg',
   './version.json'
 ];
